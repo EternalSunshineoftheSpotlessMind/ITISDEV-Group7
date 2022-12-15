@@ -1,0 +1,31 @@
+.dashItem{
+    width: 75%;
+    height: 4em;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1.5em;
+    margin: .5em;
+    justify-content: center;
+    color:333;
+}
+
+.dashItem div{
+    padding: 1.5em;
+    flex-grow: 1;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+    flex:1;
+}
+
+.dashItemSupply{
+    text-align: right;
+    justify-self: flex-end;
+}
+
+
