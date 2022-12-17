@@ -1,0 +1,50 @@
+.item{
+    width: 75%;
+    height: 4em;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 1.5em;
+    margin: .5em;
+    justify-content: center;
+    color:333;
+}
+
+.item div{
+    flex:1;
+    padding: 1.5em;
+    flex-grow: 1;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.itemStatus{
+    color: #00917C;
+}
+
+.itemEditButton, .itemSaveButton{
+    background-color: #00917C;
+    color: #eee;
+    border: 0;
+    font-size: 1em;
+    padding: .25em;
+    border-radius: .25em;
+    margin: .25em;
+    width: 2.75em;
+}
+
+.itemEditButton{
+    color: #00917C;
+    border: 1px solid #00917C;
+    background-color: #eee;
+}
+
+.itemEditButton:hover, .itemSaveButton:hover{
+    font-size: 1.075em;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
