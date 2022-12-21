@@ -1,8 +1,0 @@
-.suppliers{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1em;
-    width: 100%;
-}
